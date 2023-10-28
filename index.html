@@ -4,23 +4,62 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>js-extend</title>
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg">
 </head>
 <body>
 
+<!-- Stylesheet -->
 <style>
-.view {
-    width: 800px;
-    margin: auto;
+html, body {
+    background: #fff;
+    color:      #000;
+    margin:     0;
+    padding:    16px; /* equates to 32px on both adjacent and opposite sides */
+    box-sizing: border-box;
 }
+
+.view {
+    max-width: 600px;
+    margin:    auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div {
+    text-align: justify;
+}
+
+.heading {
+    height:      32px;
+    font-size:   32px;
+    padding:     0;
+    line-height: 0;
+    margin:      0;
+    display:     flex;
+    align-items: center;
+}
+
+.heading img {
+    margin-right: 16px;
+}
+
+.hr {
+    background: #aaa;
+    width:  100%;
+    height: 1px;
+    margin: 8px 0; /* 16px top-bottom */
+}
+
 </style>
 
+<!-- Page -->
 <div class=view>
-    <h1>js-extend</h1>
+    <!-- Heading -->
+    <h1 class="heading" id="e1"><img src="icon/base.svg" height="48">js-extend</h1>
 
-    <p>js-extend is a single file JavaScript library that extends the<br>
-JavaScript with various new helper functions and prototype expansions<br>
-that make working and building with JavaScript easy and fun.</p>
+    <!-- Introduction -->
+    <p><b>js-extend</b> is a single file JavaScript library that extends the JavaScript with various helper functions and prototype expansions that make working and building with JavaScript easy and fun.</p>
+    <p>Currently the page for js-extend is being built from the ground up using js-extend, once it's ready it will be made live, alongside with the source code for this page, the documentation, and the library itself.</p>
+    
+    <div class="hr"></div>
 </div>
 
 </body>
